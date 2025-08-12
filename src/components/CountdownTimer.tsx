@@ -41,24 +41,24 @@ export default function DiseñoReloj() {
      
 
         <div className="flex flex-col items-center justify-center py-8">
-          <div className="flex items-center justify-center space-x-2 text-4xl text-[#655b59] font-serif">
+          <div className="flex items-center justify-center space-x-4 text-4xl text-[#655b59] font-playfair-display ">
             <div className="flex flex-col items-center text-[#8c755e]">
-              <span className="text-[50px] font-serif">{String(timeLeft.days).padStart(2, '0')}</span>
+              <span className="text-[50px] font-playfair-display">{String(timeLeft.days).padStart(2, '0')}</span>
               <span className="text-sm font-normal text-[#8c755e]">Días</span>
             </div>
-            <span className="text-[#8c755e]">|</span>
+            <span className="bg-pallete-2 w-[1px] h-20" />
             <div className="flex flex-col items-center text-[#8c755e]">
-              <span className="text-[50px] font-serif">{String(timeLeft.hours).padStart(2, '0')}</span>
+              <span className="text-[50px] font-playfair-display">{String(timeLeft.hours).padStart(2, '0')}</span>
               <span className="text-sm font-normal text-[#8c755e]">Hs</span>
             </div>
-            <span className="text-[#8c755e]">|</span>
+            <span className="bg-pallete-2 w-[1px] h-20" />
             <div className="flex flex-col items-center text-[#8c755e]">
-              <span className="text-[50px] font-serif">{String(timeLeft.minutes).padStart(2, '0')}</span>
+              <span className="text-[50px] font-playfair-display">{String(timeLeft.minutes).padStart(2, '0')}</span>
               <span className="text-sm font-normal text-[#8c755e]">Min</span>
             </div>
-            <span className="text-[#8c755e]">|</span>
+           <span className="bg-pallete-2 w-[1px] h-20" />
             <div className="flex flex-col items-center text-[#8c755e]">
-              <span className="text-[50px] font-serif">{String(timeLeft.seconds).padStart(2, '0')}</span>
+              <span className="text-[50px] font-playfair-display">{String(timeLeft.seconds).padStart(2, '0')}</span>
               <span className="text-sm font-normal text-[#8c755e]">Seg</span>
             </div>
           </div>
