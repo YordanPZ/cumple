@@ -92,7 +92,7 @@ export default function Ingre1() {
               
             
         {/*contenedor de los datos de la fiesta */ }
-              <section className="w-[1200px] mx-auto h-[1200px] bg-[#f3ebe3] shadow-[0_0_10px_0px_#000000] z-10">
+              <section className="w-full mx-auto  bg-[#f3ebe3]  z-10">
                 <PartyDetailsCard/>
               </section>
             
